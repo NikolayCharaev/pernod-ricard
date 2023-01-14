@@ -1,0 +1,42 @@
+.slogan {
+  margin-bottom: 200px;
+
+  background-image: url(../../images/slogan-bg.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+
+  &__inner {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin-top: 40px;
+    max-width: 592px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__title {
+    letter-spacing: -2%;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--color-white);
+    margin-bottom: 38px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    max-width: 500px;
+    text-align: center;
+    color: var(--color-grey);
+  }
+}

@@ -1,0 +1,58 @@
+.header {
+  padding: 18px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  &__container {
+    max-width: 1500px;
+    margin: 0 auto;
+    // padding: 30px 0 40px;
+    // padding: 0 18px ;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+
+    &-item {
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .search-wrapper {
+    display: flex;
+  }
+  .languages {
+    display: flex;
+    margin-right: 40px;
+  }
+  &__navigate {
+    display: flex;
+
+    &:first-child {
+      margin-right: 40px;
+    }
+  }
+
+  .languages {
+    width: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+
+  .search {
+    display: flex;
+    &__title {
+      margin-right: 10px;
+    }
+  }
+}

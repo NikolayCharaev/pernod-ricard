@@ -1,0 +1,107 @@
+.about {
+  margin-bottom: 200px;
+
+  &__slider-img {
+    display: block;
+    // display: none;
+  }
+  &__arrows {
+    width: 198px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    // right: 90px;
+    bottom: 0;
+    left: 600px;
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+
+//   &__slider-item{
+//     display: flex;
+//   }
+
+  &__slider {
+    // display: flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+    position: relative;
+
+
+    &-item {
+        display: flex !important; 
+        width: 882px;
+        // justify-content: space-between !important;
+        gap: 100px;
+        align-items: flex-start !important;
+        position: relative;
+      }
+    
+
+    &-img {
+      display: block;
+    }
+
+    &-content {
+
+    }
+    &-small {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      letter-spacing: -0.045em;
+      text-transform: uppercase;
+      color: var(--color-small);
+      margin-bottom: 20px;
+    }
+
+    &-title {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: -0.02em;
+      color: var(--color-black);
+      margin-bottom: 20px;
+    }
+    &-description {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 40px;
+      text-transform: capitalize;
+    }
+
+    &-link {
+      text-decoration: underline;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: -0.045em;
+      color: var(--color-lightBlack);
+    }
+  }
+
+  &__slider-content {
+    max-width: 290px;
+  }
+}
+
+.blog-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  font-family: 'Cinzel';
+  color: var(--color-black);
+}
+.blog__text{
+  text-transform: capitalize;
+
+}
+
+
+
