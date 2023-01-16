@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/pernod-ricard/static/css/main.7ba1523c.css",
+    "main.js": "/pernod-ricard/static/js/main.75668bf3.js",
+    "static/media/slogan-bg.jpg": "/pernod-ricard/static/media/slogan-bg.d1bfdf44f5516ffd66f7.jpg",
+    "static/media/brand-1.jpg": "/pernod-ricard/static/media/brand-1.c71615bed29bb568ee54.jpg",
+    "static/media/sustainability-bg.jpg": "/pernod-ricard/static/media/sustainability-bg.ebfc72ca37423b1efd1e.jpg",
+    "static/media/brand-2.jpg": "/pernod-ricard/static/media/brand-2.d44b08444ccde2ab7115.jpg",
+    "static/media/quote.jpg": "/pernod-ricard/static/media/quote.3055579232e2509331b4.jpg",
+    "static/media/brand-3.jpg": "/pernod-ricard/static/media/brand-3.19bd747fb59d3465974c.jpg",
+    "static/media/organization-africa.jpg": "/pernod-ricard/static/media/organization-africa.4d52092013bea8dec7f2.jpg",
+    "static/media/news-2.jpg": "/pernod-ricard/static/media/news-2.c0a0fdc6d71ab4cf5435.jpg",
+    "static/media/about-1.jpg": "/pernod-ricard/static/media/about-1.ab8682d7823de42ffd81.jpg",
+    "static/media/news-3.jpg": "/pernod-ricard/static/media/news-3.b620c94c8a1a3a38e38b.jpg",
+    "static/media/news-1.jpg": "/pernod-ricard/static/media/news-1.2a9868a86e55a8bda0a0.jpg",
+    "static/media/logo.svg": "/pernod-ricard/static/media/logo.32f82ebafefe040cb8f5ff5c01054c15.svg",
+    "static/media/slick.svg": "/pernod-ricard/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pernod-ricard/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pernod-ricard/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/search.svg": "/pernod-ricard/static/media/search.88f2492c7df039ee06ff533d7c3350a1.svg",
+    "static/media/slick.woff": "/pernod-ricard/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/pernod-ricard/index.html",
+    "static/media/arrow-right.svg": "/pernod-ricard/static/media/arrow-right.7329089040f79bf3093c57c1f6a3591b.svg",
+    "main.7ba1523c.css.map": "/pernod-ricard/static/css/main.7ba1523c.css.map",
+    "main.75668bf3.js.map": "/pernod-ricard/static/js/main.75668bf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ba1523c.css",
+    "static/js/main.75668bf3.js"
+  ]
+}
