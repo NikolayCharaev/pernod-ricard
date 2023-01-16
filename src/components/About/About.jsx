@@ -17,32 +17,8 @@ const About = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     fade: true,
-    // nextArrow: 'asdasd',
-    prevArrow: <SamplePrevArrow />,
   };
-
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: 'block', backgroundImage: arrowRight }}
-        onClick={onClick}
-      />
-    );
-  }
-
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: 'block', backgroundImage: arrowLeft,  }}
-        onClick={onClick}
-      />
-    );
-  }
-
+ 
   return (
     <section className="about">
       <div className="container">

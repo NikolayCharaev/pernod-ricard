@@ -20,8 +20,13 @@
     display: flex;
 
     &-item {
+      transition: all .2s linear;
       &:not(:last-child) {
         margin-right: 20px;
+      }
+
+      &:hover{ 
+        color: var(--color-grey);
       }
     }
   }
